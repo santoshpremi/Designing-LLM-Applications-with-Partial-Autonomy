@@ -1,3 +1,8 @@
+---
+title: "Designing LLM Applications with Partial Autonomy: Building \"Iron Man Suits\" for Human Intelligence"
+layout: default
+---
+
 # Designing LLM Applications with Partial Autonomy: Building "Iron Man Suits" for Human Intelligence
 
 *How to move beyond simple chat interfaces to create powerful, controllable AI tools that augment human capability*
