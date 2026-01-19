@@ -497,6 +497,9 @@ This is a financial trading application. LLMs should not execute trades autonomo
 - Allow users to change levels mid-task
 - Default to lower autonomy for safety
 
+![Design Principles Checklist](images/design_principles_checklist.svg)
+*Visual checklist of key design principles for building effective partial autonomy systems.*
+
 ---
 
 ## Handling Failures: When Things Go Wrong
