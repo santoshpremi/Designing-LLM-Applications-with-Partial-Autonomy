@@ -1,5 +1,4 @@
 ---
-title: "Designing LLM Applications with Partial Autonomy: Building \"Iron Man Suits\" for Human Intelligence"
 layout: default
 ---
 
