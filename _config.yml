@@ -1,8 +1,8 @@
-title: "Designing LLM Applications with Partial Autonomy"
+title: "Designing LLM Applications with Partial Autonomy: Building \"Iron Man Suits\" for Human Intelligence"
 description: "Building Iron Man Suits for Human Intelligence"
 theme: minima
 show_excerpts: false
-author: "Santosh Premi Adhikari"
+show_downloads: false
 plugins:
   - jekyll-relative-links
 relative_links:
