@@ -656,4 +656,4 @@ The future of LLM applications isn't full autonomy—it's **intelligent augmenta
 
 ---
 
-*This blog post is based on research and analysis of current LLM application design patterns. For the latest updates and discussions, follow me on [LinkedIn](https://www.linkedin.com/in/santosh-premi-adhikari-2407a6209/).*
+*This blog post is based on research and analysis of current LLM application design patterns. For the latest updates and discussions, follow me on <a href="https://www.linkedin.com/in/santosh-premi-adhikari-2407a6209/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.*

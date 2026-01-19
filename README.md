@@ -4,7 +4,9 @@ This repository contains a comprehensive blog post about designing LLM applicati
 
 ## 📄 Blog Post
 
-The main blog post is available in [`index.md`](./index.md) (served as the homepage). This is a detailed, technical deep-dive covering:
+The main blog post is available in [`index.md`](https://santoshpremi.github.io/Designing-LLM-Applications-with-Partial-Autonomy/).
+
+This is a detailed, technical deep-dive covering:
 
 - Core architectural principles of partial autonomy
 - Real-world case studies (Cursor and Perplexity)
