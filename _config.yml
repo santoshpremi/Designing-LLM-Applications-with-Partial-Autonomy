@@ -1,0 +1,8 @@
+title: "Designing LLM Applications with Partial Autonomy"
+description: "Building Iron Man Suits for Human Intelligence"
+theme: minima
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
