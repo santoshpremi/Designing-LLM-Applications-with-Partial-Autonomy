@@ -1,0 +1,159 @@
+<svg width="1200" height="880" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Case Study Comparison: Cursor vs. Perplexity
+  </text>
+  
+  <!-- Cursor Section -->
+  <rect x="50" y="80" width="550" height="680" rx="10" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+  <text x="325" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Cursor - Code Editor
+  </text>
+  
+  <!-- Autonomy Levels -->
+  <text x="325" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Autonomy Levels
+  </text>
+  
+  <rect x="80" y="170" width="490" height="30" rx="5" fill="#2ecc71" opacity="0.3"/>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Level 1: Tab Completion</text>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="11" fill="#555">Character-by-character</text>
+  
+  <rect x="80" y="210" width="490" height="30" rx="5" fill="#3498db" opacity="0.3"/>
+  <text x="100" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Level 2: Command K</text>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="11" fill="#555">Selected code chunk</text>
+  
+  <rect x="80" y="250" width="490" height="30" rx="5" fill="#f39c12" opacity="0.3"/>
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Level 3: Command L</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="11" fill="#555">Entire file</text>
+  
+  <rect x="80" y="290" width="490" height="30" rx="5" fill="#e74c3c" opacity="0.3"/>
+  <text x="100" y="310" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Level 4: Command I</text>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="11" fill="#555">Repository-wide</text>
+  
+  <!-- Key Features -->
+  <text x="325" y="360" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Key Features
+  </text>
+  
+  <circle cx="100" cy="390" r="5" fill="#3498db"/>
+  <text x="115" y="395" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Visual code diffs (red/green)</text>
+  
+  <circle cx="100" cy="420" r="5" fill="#3498db"/>
+  <text x="115" y="425" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Automatic context management</text>
+  
+  <circle cx="100" cy="450" r="5" fill="#3498db"/>
+  <text x="115" y="455" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Codebase indexing</text>
+  
+  <circle cx="100" cy="480" r="5" fill="#3498db"/>
+  <text x="115" y="485" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Multi-file diff view</text>
+  
+  <circle cx="100" cy="510" r="5" fill="#3498db"/>
+  <text x="115" y="515" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Per-file accept/reject</text>
+  
+  <!-- Model Orchestration -->
+  <text x="325" y="560" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Model Orchestration
+  </text>
+  
+  <rect x="100" y="580" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="200" y="600" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Embedding Models</text>
+  <text x="200" y="620" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Code Search</text>
+  
+  <rect x="320" y="580" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="420" y="600" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Code Models</text>
+  <text x="420" y="620" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Generation</text>
+  
+  <rect x="100" y="640" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="200" y="660" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Diff Engines</text>
+  <text x="200" y="680" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Safe Application</text>
+  
+  <rect x="320" y="640" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="420" y="660" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Verification</text>
+  <text x="420" y="680" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Error Checking</text>
+  
+  <!-- Perplexity Section -->
+  <rect x="600" y="80" width="550" height="680" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="875" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Perplexity - Research Assistant
+  </text>
+  
+  <!-- Autonomy Levels -->
+  <text x="875" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Autonomy Levels
+  </text>
+  
+  <rect x="630" y="170" width="490" height="45" rx="5" fill="#2ecc71" opacity="0.3"/>
+  <text x="650" y="188" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Search Mode</text>
+  <text x="650" y="205" font-family="Arial, sans-serif" font-size="11" fill="#555">Single query, immediate results (seconds)</text>
+  
+  <rect x="630" y="225" width="490" height="45" rx="5" fill="#3498db" opacity="0.3"/>
+  <text x="650" y="243" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Research Mode</text>
+  <text x="650" y="260" font-family="Arial, sans-serif" font-size="11" fill="#555">Multi-source investigation (30s-2min)</text>
+  
+  <rect x="630" y="280" width="490" height="45" rx="5" fill="#e74c3c" opacity="0.3"/>
+  <text x="650" y="298" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Deep Research Mode</text>
+  <text x="650" y="315" font-family="Arial, sans-serif" font-size="11" fill="#555">Multi-query investigation (2-5 minutes)</text>
+  
+  <!-- Key Features -->
+  <text x="875" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Key Features
+  </text>
+  
+  <circle cx="650" cy="385" r="5" fill="#ff9800"/>
+  <text x="665" y="390" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Source citations with clickable links</text>
+  
+  <circle cx="650" cy="415" r="5" fill="#ff9800"/>
+  <text x="665" y="420" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Visual source list</text>
+  
+  <circle cx="650" cy="445" r="5" fill="#ff9800"/>
+  <text x="665" y="450" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Quote extraction from sources</text>
+  
+  <circle cx="650" cy="475" r="5" fill="#ff9800"/>
+  <text x="665" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Confidence indicators</text>
+  
+  <circle cx="650" cy="505" r="5" fill="#ff9800"/>
+  <text x="665" y="510" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Export to PDF/shareable pages</text>
+  
+  <circle cx="650" cy="535" r="5" fill="#ff9800"/>
+  <text x="665" y="540" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Suggested follow-up questions</text>
+  
+  <!-- Model Orchestration -->
+  <text x="875" y="585" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Model Orchestration
+  </text>
+  
+  <rect x="650" y="605" width="200" height="50" rx="5" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="750" y="625" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Query Generation</text>
+  <text x="750" y="645" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Multi-query Creation</text>
+  
+  <rect x="870" y="605" width="200" height="50" rx="5" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="970" y="625" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Search Integration</text>
+  <text x="970" y="645" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Web Retrieval</text>
+  
+  <rect x="650" y="665" width="200" height="50" rx="5" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="750" y="685" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Fact Extraction</text>
+  <text x="750" y="705" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Information Pulling</text>
+  
+  <rect x="870" y="665" width="200" height="50" rx="5" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="970" y="685" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#2c3e50">Synthesis &amp; Citation</text>
+  <text x="970" y="705" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Combine &amp; Link</text>
+  
+  <!-- Common Principles -->
+  <rect x="50" y="790" width="1100" height="80" rx="10" fill="#f8f9fa" stroke="#6c757d" stroke-width="2"/>
+  <text x="600" y="820" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Shared Design Principles
+  </text>
+  
+  <text x="100" y="845" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Visual verification interfaces</text>
+  <text x="100" y="865" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Context management automation</text>
+  
+  <text x="400" y="845" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Multi-model orchestration</text>
+  <text x="400" y="865" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Configurable autonomy levels</text>
+  
+  <text x="700" y="845" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Fast verification loops</text>
+  <text x="700" y="865" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Incremental, scoped changes</text>
+  
+  <text x="1000" y="845" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Source transparency</text>
+  <text x="1000" y="865" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Human-in-the-loop</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg width="1000" height="850" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="500" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    The Generation-Verification Loop: Speed is Key
+  </text>
+  
+  <!-- Key principle box -->
+  <rect x="200" y="65" width="600" height="70" rx="10" fill="#fff9e6" stroke="#f57c00" stroke-width="2"/>
+  <text x="500" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Key Principle: Speed Up Verification
+  </text>
+  <text x="500" y="120" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#555">
+    If humans can't quickly verify AI output, they become the bottleneck
+  </text>
+  
+  <!-- Main loop -->
+  <circle cx="500" cy="460" r="200" fill="none" stroke="#3498db" stroke-width="4" stroke-dasharray="10,5"/>
+  
+  <!-- Steps around the circle -->
+  <!-- Step 1: Task + Autonomy Level -->
+  <circle cx="500" cy="270" r="80" fill="#e8f4f8" stroke="#3498db" stroke-width="3"/>
+  <text x="500" y="265" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">Task + Autonomy</text>
+  <text x="500" y="285" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#2c3e50">Level</text>
+  
+  <!-- Arrow -->
+  <path d="M 500 350 Q 500 400 500 380" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2: AI Generation -->
+  <circle cx="500" cy="460" r="80" fill="#fff3e0" stroke="#ff9800" stroke-width="3"/>
+  <text x="500" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">2. AI Generation</text>
+  <text x="500" y="470" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Context Retrieval</text>
+  <text x="500" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Model Orchestration</text>
+  
+  <!-- Arrow -->
+  <path d="M 580 460 Q 600 460 620 460" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3: Visual Output -->
+  <circle cx="700" cy="460" r="80" fill="#f3e5f5" stroke="#9c27b0" stroke-width="3"/>
+  <text x="700" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">3. Visual Output</text>
+  <text x="700" y="470" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Diffs, Citations</text>
+  <text x="700" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Side-by-side</text>
+  
+  <!-- Arrow -->
+  <path d="M 700 540 Q 700 570 500 660" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4: Human Verification -->
+  <circle cx="500" cy="660" r="80" fill="#e0f2f1" stroke="#009688" stroke-width="3"/>
+  <text x="500" y="650" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">4. Human</text>
+  <text x="500" y="665" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">Verification</text>
+  <text x="500" y="685" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Pattern Recognition</text>
+  <text x="500" y="700" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Approve/Reject</text>
+  
+  <!-- Arrow -->
+  <path d="M 420 660 Q 400 660 380 460" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 5: Feedback -->
+  <circle cx="300" cy="460" r="80" fill="#fce4ec" stroke="#e91e63" stroke-width="3"/>
+  <text x="300" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">5. Feedback</text>
+  <text x="300" y="470" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Model Refinement</text>
+  <text x="300" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">Pattern Learning</text>
+  
+  <!-- Arrow -->
+  <path d="M 300 380 Q 300 340 500 340" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Comparison -->
+  <rect x="50" y="790" width="900" height="50" rx="5" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="100" y="810" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Text-based verification:</text>
+  <text x="250" y="810" font-family="Arial, sans-serif" font-size="12" fill="#555">Minutes to read and verify</text>
+  
+  <text x="100" y="830" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Visual diff verification:</text>
+  <text x="250" y="830" font-family="Arial, sans-serif" font-size="12" fill="#555">Seconds using pattern recognition (red/green highlights)</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#34495e" />
+    </marker>
+  </defs>
+</svg>

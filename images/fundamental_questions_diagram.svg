@@ -1,0 +1,38 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Fundamental Questions in Partial Autonomy Design
+  </text>
+  
+  <!-- Question 1 -->
+  <rect x="50" y="80" width="900" height="100" rx="10" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+  <circle cx="100" cy="130" r="25" fill="#3498db"/>
+  <text x="100" y="138" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <text x="150" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">What does all software look like in the partial autonomy world?</text>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="13" fill="#555">As AI becomes more capable, every application will need to consider how humans and AI collaborate.</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="13" fill="#555">The question isn't whether AI will be integrated, but how.</text>
+  
+  <!-- Question 2 -->
+  <rect x="50" y="200" width="900" height="100" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <circle cx="100" cy="250" r="25" fill="#ff9800"/>
+  <text x="100" y="258" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <text x="150" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Can an LLM 'see' all the things the human can?</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="13" fill="#555">LLMs have different perceptual capabilities. They process vast text/code instantly,</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="13" fill="#555">but can't visually inspect running apps or understand non-verbal cues. Design must account for these differences.</text>
+  
+  <!-- Question 3 -->
+  <rect x="50" y="320" width="900" height="100" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <circle cx="100" cy="370" r="25" fill="#9c27b0"/>
+  <text x="100" y="378" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+  <text x="150" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Can an LLM 'act' in all the ways a human can?</text>
+  <text x="150" y="380" font-family="Arial, sans-serif" font-size="13" fill="#555">LLMs can generate code, make API calls, manipulate files,</text>
+  <text x="150" y="400" font-family="Arial, sans-serif" font-size="13" fill="#555">but can't physically interact or make judgment calls in ambiguous situations. Understanding boundaries is crucial.</text>
+  
+  <!-- Question 4 -->
+  <rect x="50" y="440" width="900" height="100" rx="10" fill="#e0f2f1" stroke="#009688" stroke-width="2"/>
+  <circle cx="100" cy="490" r="25" fill="#009688"/>
+  <text x="100" y="498" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+  <text x="150" y="470" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">How can a human supervise and stay in the loop?</text>
+  <text x="150" y="500" font-family="Arial, sans-serif" font-size="13" fill="#555">This is the core challenge: creating interfaces and workflows that make human oversight</text>
+  <text x="150" y="520" font-family="Arial, sans-serif" font-size="13" fill="#555">fast, effective, and non-fatiguing. The GUI is the "highway to the brain" for efficient verification.</text>
+</svg>

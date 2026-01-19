@@ -1,0 +1,59 @@
+<svg width="1000" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Design Principles Checklist for Partial Autonomy Systems
+  </text>
+  
+  <!-- Principle 1 -->
+  <rect x="50" y="80" width="900" height="120" rx="10" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+  <circle cx="100" cy="140" r="20" fill="#3498db"/>
+  <text x="100" y="147" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Speed Up Verification</text>
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: If humans can't quickly verify AI output, they become the bottleneck.</text>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Use visual representations (diffs, graphs, side-by-side)</text>
+  <text x="150" y="185" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Leverage human pattern recognition (color coding, highlighting)</text>
+  
+  <!-- Principle 2 -->
+  <rect x="50" y="220" width="900" height="120" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <circle cx="100" cy="280" r="20" fill="#ff9800"/>
+  <text x="100" y="287" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Work in Small, Concrete Chunks</text>
+  <text x="150" y="285" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: Vague prompts lead to high failure rates. Small, well-scoped tasks are easier to verify.</text>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Break large tasks into subtasks</text>
+  <text x="150" y="325" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Provide clear boundaries (this file, this function, this section)</text>
+  
+  <!-- Principle 3 -->
+  <rect x="50" y="360" width="900" height="120" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <circle cx="100" cy="420" r="20" fill="#9c27b0"/>
+  <text x="100" y="427" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+  <text x="150" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Agent-Legible Infrastructure</text>
+  <text x="150" y="425" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: Prepare your software and documentation for AI consumption.</text>
+  <text x="150" y="445" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Use markdown for documentation</text>
+  <text x="150" y="465" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Replace "click here" with curl commands or API calls</text>
+  
+  <!-- Principle 4 -->
+  <rect x="50" y="500" width="900" height="120" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <circle cx="100" cy="560" r="20" fill="#4caf50"/>
+  <text x="100" y="567" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+  <text x="150" y="540" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">The lm.txt Standard</text>
+  <text x="150" y="565" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: Similar to robots.txt, provide a standard way to tell LLMs about your domain.</text>
+  <text x="150" y="585" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Describe what your domain is about</text>
+  <text x="150" y="605" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Define allowed/prohibited actions</text>
+  
+  <!-- Principle 5 -->
+  <rect x="50" y="640" width="900" height="120" rx="10" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+  <circle cx="100" cy="700" r="20" fill="#e91e63"/>
+  <text x="100" y="707" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+  <text x="150" y="680" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Transparent Source Handling</text>
+  <text x="150" y="705" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: Always show where information comes from, and make it easy to verify.</text>
+  <text x="150" y="725" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Cite sources for every claim</text>
+  <text x="150" y="745" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Provide clickable links and quote extraction</text>
+  
+  <!-- Principle 6 -->
+  <rect x="50" y="780" width="900" height="80" rx="10" fill="#fff9e6" stroke="#f57c00" stroke-width="2"/>
+  <circle cx="100" cy="820" r="20" fill="#f57c00"/>
+  <text x="100" y="827" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+  <text x="150" y="800" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Flexible Autonomy Levels</text>
+  <text x="150" y="825" font-family="Arial, sans-serif" font-size="13" fill="#555">Principle: Different tasks require different levels of autonomy. Make it configurable.</text>
+  <text x="150" y="845" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">✓ Provide clear autonomy level options • Map levels to risk/scopes • Default to lower autonomy for safety</text>
+</svg>

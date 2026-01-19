@@ -1,0 +1,155 @@
+<svg width="1200" height="1600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Partial Autonomy LLM Application Architecture
+  </text>
+  
+  <!-- User Interface Layer -->
+  <rect x="50" y="80" width="1100" height="120" rx="10" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    User Interface Layer
+  </text>
+  
+  <rect x="100" y="130" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Autonomy Slider</text>
+  
+  <rect x="350" y="130" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="450" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Visual Diff Viewer</text>
+  
+  <rect x="600" y="130" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="700" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Source Citations</text>
+  
+  <rect x="850" y="130" width="200" height="50" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="1"/>
+  <text x="950" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">Checkpoint/Rollback</text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="200" x2="600" y2="240" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Preprocessing Layer -->
+  <rect x="50" y="240" width="1100" height="100" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="600" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Preprocessing &amp; Task Decomposition
+  </text>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    • Break task into subtasks • Identify autonomous vs. supervised components • Determine required context
+  </text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="340" x2="600" y2="380" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Context Management Layer -->
+  <rect x="50" y="380" width="1100" height="140" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Context Management &amp; Retrieval
+  </text>
+  
+  <rect x="150" y="430" width="250" height="60" rx="5" fill="#ffffff" stroke="#9c27b0" stroke-width="1"/>
+  <text x="275" y="455" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Embedding Model</text>
+  <text x="275" y="475" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Text/Code → Vectors</text>
+  
+  <rect x="450" y="430" width="250" height="60" rx="5" fill="#ffffff" stroke="#9c27b0" stroke-width="1"/>
+  <text x="575" y="455" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Vector DB / Index</text>
+  <text x="575" y="475" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Semantic Search</text>
+  
+  <rect x="750" y="430" width="250" height="60" rx="5" fill="#ffffff" stroke="#9c27b0" stroke-width="1"/>
+  <text x="875" y="455" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">File System</text>
+  <text x="875" y="475" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Project Files, Docs</text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="520" x2="600" y2="560" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Model Orchestration Layer -->
+  <rect x="50" y="560" width="1100" height="200" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="600" y="590" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Model Orchestration Layer
+  </text>
+  
+  <rect x="100" y="610" width="200" height="60" rx="5" fill="#ffffff" stroke="#4caf50" stroke-width="1"/>
+  <text x="200" y="635" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Reasoning Model</text>
+  <text x="200" y="655" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Planning &amp; Understanding</text>
+  
+  <rect x="350" y="610" width="200" height="60" rx="5" fill="#ffffff" stroke="#4caf50" stroke-width="1"/>
+  <text x="450" y="635" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Code Gen Model</text>
+  <text x="450" y="655" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Code Generation</text>
+  
+  <rect x="600" y="610" width="200" height="60" rx="5" fill="#ffffff" stroke="#4caf50" stroke-width="1"/>
+  <text x="700" y="635" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Verification Model</text>
+  <text x="700" y="655" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Error Checking</text>
+  
+  <rect x="850" y="610" width="200" height="60" rx="5" fill="#ffffff" stroke="#4caf50" stroke-width="1"/>
+  <text x="950" y="635" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Diff/Apply Model</text>
+  <text x="950" y="655" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Safe Change Application</text>
+  
+  <rect x="225" y="690" width="200" height="60" rx="5" fill="#ffffff" stroke="#4caf50" stroke-width="1"/>
+  <text x="325" y="715" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Embedding Model</text>
+  <text x="325" y="735" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Retrieval Tasks</text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="760" x2="600" y2="800" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Autonomy Controller -->
+  <rect x="50" y="800" width="1100" height="140" rx="10" fill="#fff9e6" stroke="#f57c00" stroke-width="2"/>
+  <text x="600" y="830" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Autonomy Controller
+  </text>
+  
+  <rect x="150" y="850" width="200" height="60" rx="5" fill="#ffffff" stroke="#f57c00" stroke-width="1"/>
+  <text x="250" y="875" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Policy Engine</text>
+  <text x="250" y="895" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Allowed Actions per Level</text>
+  
+  <rect x="400" y="850" width="200" height="60" rx="5" fill="#ffffff" stroke="#f57c00" stroke-width="1"/>
+  <text x="500" y="875" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Checkpoint Mgmt</text>
+  <text x="500" y="895" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">State Saving</text>
+  
+  <rect x="650" y="850" width="200" height="60" rx="5" fill="#ffffff" stroke="#f57c00" stroke-width="1"/>
+  <text x="750" y="875" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Rollback</text>
+  <text x="750" y="895" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Revert Mechanisms</text>
+  
+  <rect x="900" y="850" width="200" height="60" rx="5" fill="#ffffff" stroke="#f57c00" stroke-width="1"/>
+  <text x="1000" y="875" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Confirmation Gates</text>
+  <text x="1000" y="895" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">User Approval Points</text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="940" x2="600" y2="980" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Output Generation -->
+  <rect x="50" y="980" width="1100" height="100" rx="10" fill="#fce4ec" stroke="#e91e63" stroke-width="2"/>
+  <text x="600" y="1010" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Output Generation &amp; Formatting
+  </text>
+  <text x="600" y="1040" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    • Generate diffs/changes • Format citations • Create visual representations
+  </text>
+  
+  <!-- Arrow -->
+  <line x1="600" y1="1080" x2="600" y2="1120" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Feedback Loop -->
+  <rect x="50" y="1120" width="1100" height="140" rx="10" fill="#e0f2f1" stroke="#009688" stroke-width="2"/>
+  <text x="600" y="1150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Feedback Loop
+  </text>
+  
+  <rect x="200" y="1170" width="200" height="60" rx="5" fill="#ffffff" stroke="#009688" stroke-width="1"/>
+  <text x="300" y="1195" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Human Verification</text>
+  <text x="300" y="1215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Approve/Reject/Modify</text>
+  
+  <rect x="450" y="1170" width="200" height="60" rx="5" fill="#ffffff" stroke="#009688" stroke-width="1"/>
+  <text x="550" y="1195" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Model Refinement</text>
+  <text x="550" y="1215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Learn from Feedback</text>
+  
+  <rect x="700" y="1170" width="200" height="60" rx="5" fill="#ffffff" stroke="#009688" stroke-width="1"/>
+  <text x="800" y="1195" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">Pattern Storage</text>
+  <text x="800" y="1215" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">Cache Successful Patterns</text>
+  
+  <!-- Feedback arrow back to top -->
+  <path d="M 1150 1260 Q 1200 1260 1200 100 Q 1150 100 1150 80" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="1220" y="680" font-family="Arial, sans-serif" font-size="12" fill="#34495e" transform="rotate(90 1220 680)">Feedback</text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#34495e" />
+    </marker>
+  </defs>
+</svg>
